@@ -4,6 +4,7 @@
 let mapleader = ","
 let maplocalleader = ";"
 
+
 " Gracefully handle holding shift too long after : for common commands
 cabbrev W w
 cabbrev Q q
@@ -192,3 +193,5 @@ nmap <leader>rp :RainbowParenthesesToggle<CR>
 " Convert simple_bdd steps into methods
 nnoremap <leader>bdd :SimpleBDD<CR>
 vnoremap <leader>bdd :SimpleBDD<CR>
+
+nmap <leader>e      <C-^>

@@ -52,7 +52,7 @@ Plugin 'tpope/vim-endwise'
 Plugin 'ecomba/vim-ruby-refactoring'
 Plugin 'nelstrom/vim-textobj-rubyblock'
 Plugin 'jgdavey/vim-blockle'
-Plugin 'tpope/vim-rbenv'
+" Plugin 'tpope/vim-rbenv'
 Plugin 'tpope/vim-rake'
 
 "
@@ -60,6 +60,7 @@ Plugin 'tpope/vim-rake'
 "
 Plugin 'tpope/vim-repeat'
 Plugin 'tpope/vim-surround'
+Plugin 'tpope/vim-vinegar'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'kana/vim-textobj-user'
 Plugin 'Julian/vim-textobj-variable-segment'
@@ -68,9 +69,9 @@ Plugin 'thinca/vim-textobj-between'
 Plugin 'tpope/vim-unimpaired'
 Plugin 'sjl/gundo.vim'
 Plugin 'godlygeek/tabular'
-Plugin 'scrooloose/syntastic'
-Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
+" Plugin 'scrooloose/syntastic'
+" Plugin 'vim-airline/vim-airline'
+" Plugin 'vim-airline/vim-airline-themes'
 Plugin 'ervandew/supertab'
 Plugin 'mgamba/j-split'
 Plugin 'matt-royal/diffthese'
@@ -127,25 +128,28 @@ Plugin 'quentindecock/vim-cucumber-align-pipes'
 Plugin 'juvenn/mustache.vim'
 Plugin 'fatih/vim-go'
 Plugin 'rosstimson/scala-vim-support'
-Plugin 'guns/vim-clojure-static'
+" Plugin 'guns/vim-clojure-static'
 Plugin 'chrisbra/csv.vim'
 Plugin 'elzr/vim-json'
-Plugin 'briancollins/vim-jst'
-Plugin 'digitaltoad/vim-jade'
-Plugin 'mxw/vim-jsx'
+" Plugin 'briancollins/vim-jst'
+" Plugin 'digitaltoad/vim-jade'
+" Plugin 'mxw/vim-jsx'
 Plugin 'lambdatoast/elm.vim'
+
+Plugin 'elixir-lang/vim-elixir'
+Plugin 'avdgaag/vim-phoenix'
 
 "
 " Development Tool Integration
 "
 Plugin 'tpope/vim-fugitive'
-Plugin 'airblade/vim-gitgutter'
+" Plugin 'airblade/vim-gitgutter'
 Plugin 'pivotal/tmux-config'
-Plugin 'tpope/vim-dispatch'
+" Plugin 'tpope/vim-dispatch'
 Plugin 'carlobaldassi/ConqueTerm'
 Plugin 'sjl/vitality.vim'
-Plugin 'brysgo/test_server'
-Plugin 'mdelillo/vim-simple-bdd'
+" Plugin 'brysgo/test_server'
+" Plugin 'mdelillo/vim-simple-bdd'
 
 call vundle#end()
 filetype plugin indent on
@@ -165,4 +169,3 @@ runtime! init/**.vim
 if filereadable($HOME . "/.vimrc.local")
   source ~/.vimrc.local
 endif
-
