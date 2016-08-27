@@ -102,7 +102,6 @@ Plugin 'ZoomWin'
 " Searching
 "
 Plugin 'mileszs/ack.vim'
-Plugin 'epmatsw/ag.vim'
 Plugin 'tpope/vim-abolish'
 Plugin 'henrik/vim-qargs'
 Plugin 'kien/ctrlp.vim'

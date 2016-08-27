@@ -118,10 +118,19 @@ imap <F1>           <Nop>
 " Easy access to the shell
 map <Leader><Leader> :!
 
+
+
+
 " AckGrep current word
-map <leader>a :call AckGrep()<CR>
+map <leader>a :Ack!<CR>
 " AckVisual current selection
-vmap <leader>a :call AckVisual()<CR>
+vmap <leader>a :Ack!<CR>
+" let g:ackprg = 'ag --vimgrep --smart-case'                                                   
+let g:ackprg = 'ag --nogroup --nocolor --column --vimgrep --smart-case'
+cnoreabbrev ag Ack!
+cnoreabbrev aG Ack!
+cnoreabbrev Ag Ack!
+cnoreabbrev AG Ack!
 
 " Recalculate diff when it gets messed up.
 nmap du :diffupdate<CR>
