@@ -210,3 +210,14 @@ nnoremap <leader>bdd :SimpleBDD<CR>
 vnoremap <leader>bdd :SimpleBDD<CR>
 
 nmap <leader>e      <C-^>
+
+" Remap regreplop's replace operator
+nmap <silent> K <Plug>ReplaceMotion
+nmap <silent> KK <Plug>ReplaceLine
+vmap <silent> K <Plug>ReplaceVisual
+
+" Tab management
+nmap <C-c> <C-w>c
+vmap <C-c> <C-w>c
+nmap <silent><C-t> :tabnew<CR>
+vmap <silent><C-t> :tabnew<CR>
